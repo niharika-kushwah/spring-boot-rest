@@ -18,7 +18,7 @@ public class EmpController {
 		
 		return "home.jsp";
 	}
-	
+
 	@RequestMapping("/addEmployee")
 	public String addEmployee(Employee emp) {
 		repo.save(emp);
